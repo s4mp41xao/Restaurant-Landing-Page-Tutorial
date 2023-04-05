@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import Logo from "../Assets/Logo.svg";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer-wrapper">
       <div className="footer-section-one">
         <div className="footer-logo-container">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="logo" />
         </div>
         <div className="footer-icons">
           <BsTwitter />
@@ -21,26 +21,27 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
+          <span>Quality</span>
           <span>Help</span>
           <span>Share</span>
-          <span>Carrers</span>
+          <span>Carres</span>
           <span>Testimonials</span>
           <span>Work</span>
         </div>
-        <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
-        </div>
-        <div className="footer-section-columns">
-          <span>Terms & Conditions</span>
-          <span>Privacy Policy</span>
-        </div>
+      </div>
+      <div className="footer-section-columns">
+        <span>244-5333-7783</span>
+        <span>hello@food.com</span>
+        <span>press@food.com</span>
+        <span>contact@food.com</span>
+      </div>
+      <div className="footer-section-columns">
+        <span>Terms & Conditions</span>
+        <span>Privacy Policy</span>
+
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

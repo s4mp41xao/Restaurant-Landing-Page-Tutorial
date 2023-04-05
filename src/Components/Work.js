@@ -1,6 +1,6 @@
-import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
+import React from 'react';
+import PickMeals from "../Assets/pick-meals-image.png"
+import ChooseMeal from "../Assets/choose-image.png";
 import DeliveryMeals from "../Assets/delivery-image.png";
 
 const Work = () => {
@@ -8,32 +8,31 @@ const Work = () => {
     {
       image: PickMeals,
       title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      text: "Lorem ipsum dolor sit amet consectetur "
     },
     {
-      image: ChooseMeals,
+      image: ChooseMeal,
       title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      text: "Lorem ipsum dolor sit amet  "
     },
     {
       image: DeliveryMeals,
       title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Lorem ipsum dolor sit  "
     },
   ];
   return (
-    <div className="work-section-wrapper">
-      <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
-        <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+    <div div className='work-section-wrapper' >
+      <div className='work-section-top'>
+        <p className='primary-subheading'>Work</p>
+        <h1 className='primary-heading'>How It Works</h1>
+        <p className='primary-text'>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas totam, modi natus alias vero, reiciendis aut atque aperiam.
         </p>
       </div>
-      <div className="work-section-bottom">
+      <div className='work-section-bottom'>
         {workInfoData.map((data) => (
-          <div className="work-section-info" key={data.title}>
+          <div className='work-section-info'>
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" />
             </div>
